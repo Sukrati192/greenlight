@@ -1,0 +1,9 @@
+{
+	email sukratiagrawal192@gmail.com
+}
+
+greenlight.sukrati.net {
+	respond /debug/* "Not Permitted" 403
+	reverse_proxy localhost:4000
+}
+
